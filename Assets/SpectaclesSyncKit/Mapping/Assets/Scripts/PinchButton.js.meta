@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     JavaScriptAsset: !<own> 3e5a303c-8741-4559-aafa-78abdc7247da
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/687e1583-bf06-40de-951f-d10647d2ca4c> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<ScriptAssetData/3e5a303c-8741-4559-aafa-78abdc7247da>
   SvgIcon: ""
   Description: ""
@@ -40,7 +43,8 @@
     renderMeshVisual: false
     useAnimations: false
     useGlowMesh: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - renderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
       maxBlendShapeWeight: !<float> 1.000000
@@ -60,4 +64,6 @@
       animationMixer: !<reference.AnimationMixer> 00000000-0000-0000-0000-000000000000
       animationLayerName: BaseLayer
   ScriptTypes:
-    - {}
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

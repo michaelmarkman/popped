@@ -238,6 +238,7 @@
     - !<reference> accda9a8-d2bc-4f3b-81fd-7a54acde8fbd
   FlipX: false
   FlipY: false
+  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/07135c1c-e357-493f-944b-a645453eb16c>
@@ -1919,6 +1920,7 @@
     - !<reference> 84c0a5b1-990c-41ba-98e8-f9ee6bf59f0b
   FlipX: false
   FlipY: false
+  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/2a217506-1ae7-474f-9210-ed329e20af9e>
@@ -4797,6 +4799,7 @@
     - !<reference> accda9a8-d2bc-4f3b-81fd-7a54acde8fbd
   FlipX: false
   FlipY: false
+  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/6538bfc5-b2db-42f2-993b-9a0839b2f471>
@@ -9627,8 +9630,6 @@
   ShadowFrustumFarClipPlane: 1000.000000
   UseEnvMapFromCamera: false
   EnvMapFromCameraMode: Auto
-  UseEstimation: false
-  EstimationIntensity: 1.000000
   EstimationSharpness: 1.000000
   EnvMapExposure: 1.000000
   EnvMapRotation: 0.000000
@@ -9642,6 +9643,8 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
+  UseEstimation: false
+  EstimationIntensity: !<float> 1.000000
 - !<Text/c6230553-f17a-408a-9895-d16276b0d12b>
   PrefabRemaps:
     []
@@ -12228,6 +12231,7 @@
     - !<reference> accda9a8-d2bc-4f3b-81fd-7a54acde8fbd
   FlipX: false
   FlipY: false
+  RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/e892379d-7064-4072-9a1a-38382d1a12ee>

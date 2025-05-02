@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     JavaScriptAsset: !<own> 03499753-6b37-42c0-80e6-2503f00ffd7b
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/d258e878-8156-405a-89c0-2f694b06331c> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<ScriptAssetData/03499753-6b37-42c0-80e6-2503f00ffd7b>
   SvgIcon: ""
   Description: ""
@@ -24,9 +27,12 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     myText: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   DefaultScriptInputs:
     - myText: !<RequiredType.Text> 00000000-0000-0000-0000-000000000000
       Text: !<RequiredType.myText> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

@@ -9,11 +9,11 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/89875fc4-ca26-4539-a792-0116476bdd8f>
+  ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings/01d864e7-23fa-43d5-841b-dc7312b94796>
+  CompressionSettings: !<SingleCompressionSettings>
     CompressorName: Performance
-    CompressionSettings: !<TextureCompressionSettings/37c635c5-1a61-48fb-b086-e4a6a576b849>
+    CompressionSettings: !<TextureCompressionSettings>
       Level: Low
   ExtraData:
     {}

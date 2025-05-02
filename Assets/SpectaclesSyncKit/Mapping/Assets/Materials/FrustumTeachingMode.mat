@@ -4,7 +4,33 @@
     - !<own> cae41f85-2d25-4246-a940-bc97e9d27745
 - !<PassInfo/cae41f85-2d25-4246-a940-bc97e9d27745>
   CachedProperties:
-    []
+    - Tweak_N41BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N41Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N41UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N42BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N42Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N42UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N99BorderColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N99Dims:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N99UvMinMax:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   DepthWrite: false
   DepthTest: true
   DepthFunction: LessEqual
@@ -73,21 +99,12 @@
           borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
           mipmaps: false
         type: Texture2D
-    Tweak_N41BorderColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Tweak_N41Dims:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Tweak_N41Transform:
       typeIdx: 7
       value:
         0: {x: 1.000000, y: 0.000000, z: 0.000000}
         1: {x: 0.000000, y: 1.000000, z: 0.000000}
         2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    Tweak_N41UvMinMax:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Tweak_N42:
       typeIdx: 9
       value:
@@ -100,21 +117,12 @@
           borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
           mipmaps: false
         type: Texture2D
-    Tweak_N42BorderColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Tweak_N42Dims:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Tweak_N42Transform:
       typeIdx: 7
       value:
         0: {x: 1.000000, y: 0.000000, z: 0.000000}
         1: {x: 0.000000, y: 1.000000, z: 0.000000}
         2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    Tweak_N42UvMinMax:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Tweak_N46:
       typeIdx: 5
       value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
@@ -133,21 +141,12 @@
           borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
           mipmaps: false
         type: Texture2D
-    Tweak_N99BorderColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Tweak_N99Dims:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     Tweak_N99Transform:
       typeIdx: 7
       value:
         0: {x: 1.000000, y: 0.000000, z: 0.000000}
         1: {x: 0.000000, y: 1.000000, z: 0.000000}
         2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    Tweak_N99UvMinMax:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     alpha:
       typeIdx: 1
       value: 1.000000
