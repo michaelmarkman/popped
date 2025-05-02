@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/700d630e-df81-42c4-922f-6f134ca93696>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 788bfdd1-493d-41a4-a26f-c3da243b1bcf
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 788bfdd1-493d-41a4-a26f-c3da243b1bcf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> ea82ead8-57dc-472c-9017-97c65ec7d2e2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<VFXComponent/00ac6241-c907-42ed-bdd4-3580281ef287>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> edae3b5e-a36e-49dc-a957-2a91f010ea06
+- !<SceneObject/21cb4d7d-eb19-4246-a9bd-2c7e932917c6>
+  PrefabRemaps:
+    []
+  Name: Custom Mesh Emitter
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -28.166780, z: 0.000092}
+    rotation: {x: -0.000000, y: -0.000001, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 00ac6241-c907-42ed-bdd4-3580281ef287
+- !<ObjectPrefab/63453a97-884a-42a7-b884-e34bec3fe34e>
+  PackagePath: ""
+  objects:
+    - !<own> 21cb4d7d-eb19-4246-a9bd-2c7e932917c6
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/ea82ead8-57dc-472c-9017-97c65ec7d2e2>
+  SourceRemaps:
+    - 3c662a15-9ac6-4923-ae7a-18470f0c715d: 21cb4d7d-eb19-4246-a9bd-2c7e932917c6
+    - 6a11be3a-2cb6-4b75-8276-29654cce41bd: 00ac6241-c907-42ed-bdd4-3580281ef287
+  SourceState: !<own> 63453a97-884a-42a7-b884-e34bec3fe34e

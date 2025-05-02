@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/275f12f9-8ca2-4eca-8535-cec0df443ff5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e463184f-eab6-41dd-88e7-000dc97bece6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e463184f-eab6-41dd-88e7-000dc97bece6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a17da2ca-28d4-47cf-b252-5ce66dabe934
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/a17da2ca-28d4-47cf-b252-5ce66dabe934>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4ee8dcd9-e990-45d5-a699-84d1a512f681
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objectPrefabs: false
+    rocketConfigurator: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - objectPrefabs: !<reference.ObjectPrefab[]>
+        []
+      rocketConfigurator: !<MappingBased.RocketConfigurator> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input RocketConfigurator rocketConfigurator
+    - "// @input Asset.ObjectPrefab[] objectPrefabs = {}"
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

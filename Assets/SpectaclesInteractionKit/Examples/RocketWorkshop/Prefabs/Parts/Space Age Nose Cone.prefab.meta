@@ -1,0 +1,84 @@
+- !<AssetImportMetadata/052a0cb7-ca34-48b3-be95-1f9c4da1c641>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 41964a5b-1f0f-446a-be85-9b78146205dd
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 41964a5b-1f0f-446a-be85-9b78146205dd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 68874d80-4bd4-409e-a8a4-a35d3fbd1398
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ObjectPrefabAssetData/68874d80-4bd4-409e-a8a4-a35d3fbd1398>
+  SourceRemaps:
+    - 8391c568-3903-42fc-a550-5f511ecbef62: 8b2d4fc2-a875-4316-bd88-1ad1ec335da0
+    - afb63030-5683-4a36-aab4-298a0d8c5cad: 739262ad-d46f-4bab-947e-6cd4d82523ab
+    - ffaef9ee-ee7a-4067-b9c7-e64281c0f93d: 9cbe0865-aad2-4c2e-b851-7d66f2866c8d
+  SourceState: !<own> 9c9b3f55-4440-42a0-b840-1cdfb261662c
+- !<SceneObject/739262ad-d46f-4bab-947e-6cd4d82523ab>
+  PrefabRemaps:
+    []
+  Name: Space Age Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 18.635382, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9cbe0865-aad2-4c2e-b851-7d66f2866c8d
+    - !<own> 8b2d4fc2-a875-4316-bd88-1ad1ec335da0
+- !<RenderMeshVisual/8b2d4fc2-a875-4316-bd88-1ad1ec335da0>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 32e26a0a-af83-4daa-bcf2-88defadc18c5
+  Mesh: !<reference> a08a3bf1-f0b6-451a-bdfd-7d66bf8e0b01
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/9c9b3f55-4440-42a0-b840-1cdfb261662c>
+  PackagePath: ""
+  objects:
+    - !<own> 739262ad-d46f-4bab-947e-6cd4d82523ab
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/9cbe0865-aad2-4c2e-b851-7d66f2866c8d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f75a8b38-2eb6-4111-90e0-7c4665b89f19
+  Mesh: !<reference> cffefcdd-93a0-411c-aab3-1eef9344bd96
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

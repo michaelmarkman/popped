@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/6d47550d-d2a8-4ffc-9745-6d1ad142bff1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 025d3c1c-ec8d-4de4-8964-f82207267b3a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 025d3c1c-ec8d-4de4-8964-f82207267b3a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> d4048317-4ec9-4b26-a2b5-e6cc09c4762f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/d4048317-4ec9-4b26-a2b5-e6cc09c4762f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e67a7577-9712-40d3-bf43-f5a6dd4ea3c4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    _behindDistance: false
+    _directZoneDistance: false
+    _drawDebug: false
+    _planeSize: false
+    _proximityDistance: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - _planeSize: !<Vec2> {x: 10.000000, y: 10.000000}
+      _proximityDistance: !<float> 20.000000
+      _drawDebug: false
+      _behindDistance: !<float> 5.000000
+      _directZoneDistance: 7.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input vec2 _planeSize = {10,10}"
+    - // @input float _proximityDistance
+    - // @input float _directZoneDistance
+    - // @input bool _drawDebug
+    - // @input float _behindDistance
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

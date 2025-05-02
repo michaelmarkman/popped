@@ -1,0 +1,71 @@
+- !<ObjectPrefab/fc8487a9-2d4f-4d76-9c09-79913decf29c>
+  PackagePath: ""
+  objects:
+    - !<own> 462cce45-f569-4c74-87cf-2f267c043572
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/462cce45-f569-4c74-87cf-2f267c043572>
+  PrefabRemaps:
+    []
+  Name: container-button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.935684, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94d19875-01e3-460d-94fe-c3ff55984100
+    - !<own> 905f1091-ce93-4842-81d7-768f99ddb84c
+- !<ScriptComponent/905f1091-ce93-4842-81d7-768f99ddb84c>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> beee9b18-8edb-474b-a19a-6ed61142e12d
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 3.000000
+      acceptableYDirections: !<float> 3.000000
+      acceptableZDirections: !<float> 3.000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/94d19875-01e3-460d-94fe-c3ff55984100>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a04ba63e-e34e-432a-82c1-bb6d6ed19ca8
+  Mesh: !<reference> 48d4ba4f-946c-4c61-8909-d47c44eb1de6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: true
+  BlendShapes:
+    Pinch: 0.000000
+    Z depth: 1.000000

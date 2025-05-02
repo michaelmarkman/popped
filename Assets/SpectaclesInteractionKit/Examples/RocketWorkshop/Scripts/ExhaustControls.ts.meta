@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/6fbe16bb-9e86-4999-a58f-415e8c1d2c4e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 20c0f8b5-2fb3-4f71-a06a-009e767d992b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 20c0f8b5-2fb3-4f71-a06a-009e767d992b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6c51c072-dce5-471e-a4de-dd351a8bba61
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<TypeScriptAssetData/6c51c072-dce5-471e-a4de-dd351a8bba61>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: dcc9368f-21f0-45b1-8792-c64dbae6d3f5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    exhausts: false
+    smokes: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - exhausts: !<reference.SceneObject[]>
+        []
+      smokes: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] exhausts = {}"
+    - "// @input SceneObject[] smokes = {}"
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

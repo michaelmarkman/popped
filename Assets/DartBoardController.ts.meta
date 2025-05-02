@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/530bbe28-b372-4a8a-b4ff-a697d939eada>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ab542bcc-7afb-4ac9-955f-cf138dab852a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ab542bcc-7afb-4ac9-955f-cf138dab852a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 05b4a9e3-514f-42d8-8b16-ea4c6160ae64
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/05b4a9e3-514f-42d8-8b16-ea4c6160ae64>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9026ada4-bb45-4cd3-aecd-0f8d249ba531
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    dartBouncedSound: false
+    dartHitSounds: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - dartHitSounds: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      dartBouncedSound: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.AudioComponent dartHitSounds
+    - // @input Component.AudioComponent dartBouncedSound
+    - // @input SceneObject targetObject

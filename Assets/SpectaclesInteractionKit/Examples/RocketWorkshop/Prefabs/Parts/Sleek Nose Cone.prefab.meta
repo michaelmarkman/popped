@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/e1ed10bc-768d-456f-b966-8549cc1150b2>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8cd020c4-b336-484a-a64e-06ad14da7a77
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8cd020c4-b336-484a-a64e-06ad14da7a77
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 790dea11-9b2f-482d-85a2-2287ae3a82de
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<SceneObject/56301477-62c4-454d-9f25-f4e75938629e>
+  PrefabRemaps:
+    []
+  Name: Sleek Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 21.029972, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b6439cf6-00a2-493d-af2a-60272bbf2cf8
+- !<ObjectPrefabAssetData/790dea11-9b2f-482d-85a2-2287ae3a82de>
+  SourceRemaps:
+    - d165f025-0c98-4a79-bdae-4e6a32ac800d: 56301477-62c4-454d-9f25-f4e75938629e
+    - de0a522a-bdc8-42f4-b223-0552bb93c75b: b6439cf6-00a2-493d-af2a-60272bbf2cf8
+  SourceState: !<own> be60f1ad-2914-4e32-a7d5-7afbce976f6f
+- !<RenderMeshVisual/b6439cf6-00a2-493d-af2a-60272bbf2cf8>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e20a5e05-d3ff-479a-9eb7-0a03cc7b57a8
+  Mesh: !<reference> ed97c1ad-f5f3-48b5-ae32-152dd657dfdb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/be60f1ad-2914-4e32-a7d5-7afbce976f6f>
+  PackagePath: ""
+  objects:
+    - !<own> 56301477-62c4-454d-9f25-f4e75938629e
+  LazyLoading: false
+  RetainAssets: true

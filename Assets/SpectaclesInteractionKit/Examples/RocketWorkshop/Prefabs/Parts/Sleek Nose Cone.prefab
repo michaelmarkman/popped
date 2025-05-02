@@ -1,0 +1,41 @@
+- !<ObjectPrefab/8cd020c4-b336-484a-a64e-06ad14da7a77>
+  PackagePath: ""
+  objects:
+    - !<own> d165f025-0c98-4a79-bdae-4e6a32ac800d
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/d165f025-0c98-4a79-bdae-4e6a32ac800d>
+  PrefabRemaps:
+    []
+  Name: Sleek Nose Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.794556, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de0a522a-bdc8-42f4-b223-0552bb93c75b
+- !<RenderMeshVisual/de0a522a-bdc8-42f4-b223-0552bb93c75b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e20a5e05-d3ff-479a-9eb7-0a03cc7b57a8
+  Mesh: !<reference> ed97c1ad-f5f3-48b5-ae32-152dd657dfdb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
