@@ -29,7 +29,7 @@
     Scene: !<own> 36c2ddd9-4fde-407b-82c9-7ebca5885bcc
   DependentFiles:
     []
-  ImporterSettings: !<FbxImporterSettings/250c7e2d-eda0-4336-a642-8e7d798cc3ab>
+  ImporterSettings: !<FbxImporterSettings>
     UseLegacyImporter: false
     WithMaterials: true
     NamingConvention: ByCategorySanitize
@@ -45,20 +45,20 @@
     GeneratePivots: true
     TriangulateNURBS: true
     UseLegacyFbxLoader: false
-  CompressionSettings: !<ComplexCompressionSettings/5a66bba6-4a1a-48c6-808f-cd9af91aa169>
+  CompressionSettings: !<ComplexCompressionSettings>
     Presets:
-      None Compression: !<SingleCompressionSettings/fef4eb30-448a-4a3a-abc5-af617561b036>
+      None Compression: !<SingleCompressionSettings>
         CompressorName: Draco
-        CompressionSettings: !<MeshCompressionSettings/9b443161-f752-40a2-97c9-753ce8ad4d86>
+        CompressionSettings: !<MeshCompressionSettings>
           EnableDracoCompression: true
           CompressionLevel: 10
           PositionBits: 11
           TexcoordBits: 10
           NormalBits: 8
           ColorBits: 8
-      Performance Compression: !<SingleCompressionSettings/adb4c69b-cdf7-4fd1-8c53-be78e900e8d2>
+      Performance Compression: !<SingleCompressionSettings>
         CompressorName: Performance
-        CompressionSettings: !<TextureCompressionSettings/a48eeb01-6fc7-483a-9fa7-61251a3a9ac2>
+        CompressionSettings: !<TextureCompressionSettings>
           Level: Medium
     ExtensionMappings:
       mesh: None Compression
