@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 943
+    size: 941
     values:
       - Balloons Pack
       - Balloons Pack/.hidden
@@ -26,7 +26,7 @@ CollapsedEntities:
       - Occluder.mat
       - RenderTarget.renderTarget
       - Scene.scene
-      - Smoothening.ts
+      - Smoothing.js
       - SpectaclesSyncKit/Components
       - SpectaclesSyncKit/Components/Instantiator.ts
       - SpectaclesSyncKit/Components/SyncHelpers
@@ -926,7 +926,6 @@ CollapsedEntities:
       - SpectaclesSyncKit/Utils/Unsubscribe.ts
       - SpectaclesSyncKit/VersionNumber.ts
       - SpectaclesSyncKit/package.native
-      - TicTacToe
       - TicTacToe/Javascript
       - TicTacToe/Javascript/ControllerJS.js
       - TicTacToe/Javascript/PieceJS.js
@@ -942,7 +941,6 @@ CollapsedEntities:
       - TicTacToe/Prefabs
       - TicTacToe/Prefabs/OPrefab.prefab
       - TicTacToe/Prefabs/XPrefab.prefab
-      - TicTacToe/Typescript
       - TicTacToe/Typescript/ControllerTS.ts
       - TicTacToe/Typescript/PieceTS.ts
       - occluder.ss_graph
