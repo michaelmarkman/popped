@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 943
+    size: 944
     values:
       - Balloons Pack
       - Balloons Pack/.hidden
@@ -26,7 +26,7 @@ CollapsedEntities:
       - Occluder.mat
       - RenderTarget.renderTarget
       - Scene.scene
-      - Smoothening.ts
+      - SpectaclesSyncKit
       - SpectaclesSyncKit/Components
       - SpectaclesSyncKit/Components/Instantiator.ts
       - SpectaclesSyncKit/Components/SyncHelpers
@@ -37,6 +37,7 @@ CollapsedEntities:
       - SpectaclesSyncKit/Components/SyncMaterials.ts
       - SpectaclesSyncKit/Components/SyncRealtimeStore.ts
       - SpectaclesSyncKit/Components/SyncTransform.ts
+      - SpectaclesSyncKit/Connected Lens Module.connectedLensModule
       - SpectaclesSyncKit/Core
       - SpectaclesSyncKit/Core/EventWrapper.ts
       - SpectaclesSyncKit/Core/KeyedEventWrapper.ts
