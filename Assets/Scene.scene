@@ -468,7 +468,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 885deeda-130b-41be-ab00-071d90ccdc20
+    - !<reference> 58a372b2-4536-47c1-9565-a47114f51d50
   Mesh: !<reference> d337d8b0-035f-46bf-86f0-46b35afde34c
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -1621,7 +1621,7 @@
   LocalTransform:
     position: {x: 0.000000, y: 24.258732, z: 0.000000}
     rotation: {x: 0.000016, y: 52.903210, z: 0.000014}
-    scale: {x: 125.815025, y: 125.815010, z: 125.815025}
+    scale: {x: 200.000000, y: 200.000000, z: 200.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 3d6174fe-d7c4-4dd8-a33f-e7f7585813be
@@ -2113,7 +2113,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 02bba0c9-0d8d-4bee-8b56-acaab7b5f5ba
+    - !<reference> 58a372b2-4536-47c1-9565-a47114f51d50
   Mesh: !<reference> 629ee7ba-9d3e-4b47-ad91-70668e87fa60
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -3985,6 +3985,22 @@
     - !<own> ea3c50bd-6da5-4d09-a5d2-8079803807d3
   Components:
     []
+- !<ScriptComponent/51f16508-3770-4e07-98d0-add73bdd26f8>
+  PrefabRemaps:
+    []
+  Name: Smoothening
+  Enabled: true
+  ScriptAsset: !<reference> 941f184c-e77d-4a6a-b366-c5e5e2e085cd
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/524fe4e0-f915-4947-abfd-d4594bc84422>
   PrefabRemaps:
     []
@@ -4806,6 +4822,7 @@
     - !<own> 22c1dfa1-b53a-4de3-b77d-332c5c12a5ce
   Components:
     - !<own> 2607fd7d-fb3d-48c2-b830-2b5237124938
+    - !<own> 51f16508-3770-4e07-98d0-add73bdd26f8
 - !<SceneObject/632c3166-09b2-4572-9a3f-323c52e52d27>
   PrefabRemaps:
     []
