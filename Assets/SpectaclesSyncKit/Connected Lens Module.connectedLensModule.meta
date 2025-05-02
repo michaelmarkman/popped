@@ -4,7 +4,7 @@
   ImporterName: ConnectedLensModuleImporter
   PrimaryAsset: !<reference> 2df474c2-c430-42dd-983d-2593b3648b93
   PackageType: NotAPackage
-  ImporterSettings: !<AssetImporterSettings/6eef88a8-c136-45a6-8761-1c40f68889b8>
+  ImporterSettings: !<AssetImporterSettings>
     {}
   AssetDataMap:
     ConnectedLensModule: !<own> 00000000-0000-0000-0000-000000000000

@@ -11,7 +11,7 @@
     ObjectPrefab: !<own> 58b5387b-52be-445a-bf12-c8f0a56f3aee
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/d87c7acc-0409-4266-b73d-a22f4cc9c9c3>
+  ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptComponent/001563ef-1030-4cbc-a088-3709e4c8a83f>
@@ -602,6 +602,7 @@
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  RotationAngle: 0
 - !<SceneObject/0749b7f1-8a00-41a0-8a9c-8d6071aec6f0>
   PrefabRemaps:
     []
@@ -2405,6 +2406,7 @@
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  RotationAngle: 0
 - !<ScriptComponent/21dbfea5-c756-4b90-876d-7209f16c86e5>
   PrefabRemaps:
     []
@@ -14720,6 +14722,7 @@
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  RotationAngle: 0
 - !<RenderMeshVisual/ecd3606c-de63-4264-9466-a8e6df51cfe1>
   PrefabRemaps:
     []
@@ -14997,6 +15000,7 @@
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  RotationAngle: 0
 - !<ScriptComponent/f35c13b9-22db-4031-ab2d-c2f878970ad1>
   PrefabRemaps:
     []

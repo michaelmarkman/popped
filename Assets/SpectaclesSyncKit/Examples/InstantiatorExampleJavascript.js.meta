@@ -7,10 +7,13 @@
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     JavaScriptAsset: !<own> bda90cec-4d7e-471a-bf4d-599b1d3a387d
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings/f2af6532-96d7-43ad-9155-9e87485947d8> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  ExtraData: {}
+  ExtraData:
+    {}
 - !<ScriptAssetData/bda90cec-4d7e-471a-bf4d-599b1d3a387d>
   SvgIcon: ""
   Description: ""
@@ -32,3 +35,4 @@
       prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     - Instantiator: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
